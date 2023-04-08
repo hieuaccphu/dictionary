@@ -1,7 +1,10 @@
+import 'package:dictionary/screens/training/training_screen.dart';
 import 'package:flutter/material.dart';
 
-class NavigatorScreen extends StatelessWidget {
-  const NavigatorScreen({super.key});
+import 'components/app_navigation_bar.dart';
+
+class NavigationScreen extends StatelessWidget {
+  const NavigationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,6 +15,7 @@ class NavigatorScreen extends StatelessWidget {
           Icon(Icons.person),
         ],
       ),
+      body: const AppNavigationBar(),
     );
   }
 }

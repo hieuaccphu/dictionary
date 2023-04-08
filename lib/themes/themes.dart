@@ -93,3 +93,14 @@ class AppTextStyle {
     fontWeight: FontWeight.w900,
   );
 }
+
+class AppContainerStyle {
+  static final border = BoxDecoration(
+    color: AppColors.base,
+    border: Border.all(
+      color: AppColors.black,
+      width: 2,
+    ),
+    borderRadius: BorderRadius.circular(30),
+  );
+}
